@@ -44,7 +44,7 @@
         <id>snapshots</id>
         <name>7c526685f32f-snapshots</name>
         <url>http://ec2-3-95-55-181.compute-1.amazonaws.com:8081/artifactory/libs-snapshot-local</url>
-    </snapshotRepositor>
+    </snapshotRepository>
     <repository>
         <id>central</id>
         <name>7c526685f32f-releases</name>
