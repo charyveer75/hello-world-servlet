@@ -27,6 +27,22 @@
           <scope>test</scope>
       </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>7c526685f32f-releases</name> <snapshotRepository>
+        <id>snapshots</id>
+        <name>7c526685f32f-snapshots</name>
+        <url>http://ec2-3-95-55-181.compute-1.amazonaws.com:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+        <url>http://ec2-3-95-55-181.compute-1.amazonaws.com:8081/artifactory/libs-release-local</url>
+    </repository>
+    <repository>
+        <id>central</id>
+        <name>7c526685f32f-releases</name>
+        <url>http://ec2-3-95-55-181.compute-1.amazonaws.com:8081/artifactory/libs-release-local</url>
+    </repository>
+</distributionManagement>
     <build>
         <finalName>helloworld</finalName>
         <plugins>
